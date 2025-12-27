@@ -1,0 +1,37 @@
+{
+  "name": "job-finder",
+  "version": "1.0.0",
+  "description": "Este sistema é um portal para programadores encontrarem vagas de emprego.",
+  "keywords": [
+    "dev",
+    "jobs",
+    "dev",
+    "oportunity"
+  ],
+  "homepage": "https://github.com/Mercesz/Job-Finder#readme",
+  "bugs": {
+    "url": "https://github.com/Mercesz/Job-Finder/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mercesz/Job-Finder.git"
+  },
+  "license": "MIT",
+  "author": "Ezequiel Merces",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.1",
+    "express": "^5.2.1",
+    "express-handlebars": "^8.0.4",
+    "sequelize": "^6.37.7",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
